@@ -5,4 +5,4 @@ from abc import ABC, abstractmethod
 
 class BaseDBConnector(ABC):
     @abstractmethod
-    def get_connection_url(self) -> str:
+    def get_connection_url(self) -> str:ss
