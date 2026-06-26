@@ -1,0 +1,15 @@
+
+[seoul_api]
+base_url = "http://openapi.seoul.go.kr:8088"
+api_key = "7656714c4567757336356769446c6b"
+service_name = "tbTraficElvtr"
+page_size = 1000
+
+
+[database]
+db_type = "postgres"
+user = "krx"
+password = "krx"
+host = "192.168.56.10"
+port = 5432
+database_name = "bdp_test"
